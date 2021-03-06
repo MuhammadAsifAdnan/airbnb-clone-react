@@ -1,0 +1,55 @@
+
+1. Install dependencies -> 20 mins
+- typescript, redux toolkit, node-sass, bootstrap
+- json-server
+
+2. Common Components
+    2.1 Top Bar 
+        2.1.1 Left Search section
+            - Design -> 1 hr
+            - Functionality -> 2 hr
+        2.1.2 Right Action Bar
+            - Design -> 30 mins
+            - Functionality X
+    2.2 Top Navigation bar
+        - Design -> 30 mmins
+        - Functionality X
+    2.3 Advanced Search X
+        - Design
+        - Functionality
+    2.4 Footer
+        - Design -> 2 Hr
+    2.5 PropertyCard - (for landing page)
+        - MultimediaComponent - image gallery -> 2 Hr
+        - RatingComponent -> 30 mins
+        - SummaryComponent -> 2 Hr
+    2.6 PropertyCardSearchResult (for search result page) X
+    2.7 Layout -> 2 Hr
+
+3. Common stuff
+    3.1 Configure env -> 30 mins
+    3.2 Configure router -> 20 mins
+    3.4 Configure store -> 30 mins
+        - property list
+        - selected property id
+        - thunks (backend data interaction) -> 1 Hr
+            - fetch properties
+            - create property
+
+4. Landing page -> 2 Hr
+    - Render property list
+    - Go to property details page on action
+5. Search page X
+    - Render search results
+6. Details page -> 2Hr
+    - Render property details
+
+7. Admin page 
+    - Design form for property entry -> 2 Hr
+    - Validations -> 1 Hr
+    - Submit functionality -> 2 Hr
+8. Create API
+    - Get api for properties -> 1 Hr
+    - Post api for property -> 1 Hr
+
+** Planning: 3hrs
