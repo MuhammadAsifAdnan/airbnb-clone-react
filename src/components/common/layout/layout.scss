@@ -1,0 +1,8 @@
+.layoutWrapper {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  .childrenWrapper {
+    min-height: calc(100vh - 200px);
+  }
+}

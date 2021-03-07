@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { AppThunk } from '../../store/store'; //RootState
+import { AppThunk, RootState } from '../../store/store';
 
 import axios from '../../utils/axios';
 import { ApiStatus } from '../../enums/api-status.enum';
@@ -61,5 +61,12 @@ export const fetchProperties = (): AppThunk => async (dispatch, getState) => {
 };
 
 export const { setStatus, setProperties, setError, setSelectedPropertyId } = counterSlice.actions;
+
+export const selectAllProperties = (state: RootState) => state.properties.data;
+export const selectPropertiesStatus = (state: RootState) => state.properties.status;
+export const selectedPropertyId = (state: RootState) => state.properties.selectedPropertyId;
+
+// todo selectPropertyByID
+// todo memoize selectors
 
 export default counterSlice.reducer;
